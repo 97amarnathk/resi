@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+
+}
+
+#main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logo {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 10px 5%;
+  text-align: center;
+  font-family: 'Leckerli One';
+}
+
+#logo h1 {
+  margin: 0;
+}
+
+header ul {
+  margin: 0 0;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background-color: #4887F4;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+  font-size: 9pt;
+  padding: 5px 10px;
+  margin: 0 4px;
+}
+
+header ul li a:hover {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bolder;
+}
