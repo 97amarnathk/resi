@@ -21,6 +21,10 @@ body, html {
 
 #logo h1 {
   margin: 0;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 header ul {
@@ -49,4 +53,50 @@ header ul li a {
 header ul li a:hover {
   color: rgba(255, 255, 255, 1);
   font-weight: bolder;
+}
+
+.resumeForm {
+  background-color: rgba(242, 242, 242, 0.3);
+  border: 1px solid #F2F2F2;
+  line-height: 1.8em;
+  width: 760px;
+  position: relative;
+  padding: 24px 24px 24px 24px;
+  margin: 30px auto;
+  display: block;
+  font-size: 0;
+}
+
+.resumeFormFieldHolder {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+.resumeFormFieldHolder label {
+  margin: 0px auto 17px auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 8pt;
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(58, 63, 82, 0.85);
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.resumeFormFieldHolder input {
+  font-family: 'Lato', sans-serif;
+  background-image: none;
+  margin: -12px 0;
+  font-size: 10pt;
+  color: #3A3F52;
+  font-weight: bolder;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  display: block;
+  letter-spacing: 1px;
+  border: 1px solid rgba(72, 135, 244, 0.2);
 }
